@@ -21,6 +21,13 @@ namespace Plain
             Console.WriteLine("Type in terminal the command: dotnet new console");
             Console.WriteLine("Click on the Program.cs and start creating file");
             Console.WriteLine($"To run the program type in the command: {str1} in terminal");
+
+            char beep = '\a' ;
+
+            Console.WriteLine("****Logical Operators");
+            Console.WriteLine("AND is &&");
+            Console.WriteLine('OR is ||');
+            COnsole.WriteLine("NOT !");
         }
     }
 }
