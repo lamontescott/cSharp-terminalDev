@@ -28,6 +28,11 @@ namespace Plain
             Console.WriteLine("AND is &&");
             Console.WriteLine('OR is ||');
             COnsole.WriteLine("NOT !");
+
+            //Extracting Data from user known methods
+            ConsoleKeyInfo mykey = ReadKey();
+            Console.Write(key.mykey);
+
         }
     }
 }
